@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="notatki.html">Notatki</a>
+            <a href="etapy.html">Etapy</a>
+        </nav>
+    </header>
+    <main>
+        <header id="top">
+            <h1 class="white-header">Bartłomiej Gargula – strona domowa</h1>
+        </header>
+        <section>
+            <h2 class="hotpink-header">PODSUMOWANIE SZKOLENIA Z WTF: CO TEN FRONTEND</h2>
+            <article>
+                <h3>Tydzień I:</h3>
+                <p> Z uwagi na to, że rozpocząłem szkolenie w trakcie trwania drugiego tygodnia szkolenia, zmuszony
+                    byłem do nadrobienia materiału który był zawarty w pierwszym tygodniu. Prowadzący kurs Maciek
+                    Korsan, w bardzo przystępny sposób przedstawił czym będziemy się zajmować, oraz jakie narzędzia są
+                    niezbędne do rozpoczęcia przygody z programowaniem. Platformę można znaleźć pod odnośnikiem 
+                    <a href="https://www.cotenfrontend.pl">WTF</a></p>
+                    <p>Zbiór przydatnych pojęć i notatek znajduje się tutaj: <a href="notatki.html">Przejdź do notatek</a></p>
+                <p>Prawdziwa jazda bez trzymanki zaczyna się dopiero w <a href="#week3">trzecim tygodniu</a></p>
+            </article>
+            <article>
+                <h3>Tydzień II:</h3>
+                <p>Tydzień drugi rozpoczął się od poznania warstw strony internetowej, oraz od delikatnego wprowadzenia
+                    do HTML i CSS (świetne porównanie z blokiem mieszkalnym – bardzo zapada w pamięć 😊).
+                    <br>Poznaliśmy podstawowe komendy, poszczególne elementy kodu. Świetną rozrywką okazało się poznanie
+                    devtools, dostępnych na każdej stronie internetowej, oraz możliwości jakie się z nimi wiążą.
+                    Wisienką na torcie jest kilka zadań które
+                    otrzymaliśmy od Maćka, dzięki którym będziemy mogli przetestować swoją wiedzę w praktyce.</p>
+            </article>
+            <article>
+                <h3 id="week3">Tydzień III:</h3>
+                <p>Stylowanie klasami (class) jest bardziej wydajne, ponieważ jedna klasa może skrywać kilka atrybutów,
+                    które od razu zostają przypisane do elementu
+                    <br> Klasa = kropka + nadana nazwa (pisana kebab case).
+                    <br>Stylowanie za pomocą id. id = hash + nadana nazwa (pisana kebab case).
+                    <br> id powinno być jedno na stronę. Jedno dla każdego z elementów. Nie powinno się powielać
+                    jednego id do różnych elementów.
+                    <br> important z wykrzyknikiem z przodu nadaje priorytet, aczkolwiek nie powinno się go stosować.
+                    <br> Specyficzność w CSS (ważność) - important, style, id, class, element(np. body, h1, etc.)
+                    <br> W przypadku remisu wygrywa ten który jest bliżej docelowego elementu</p>
+                <p>JavaScript - znacznik script jest dodawany zawsze na dole strony - po footerze, przed zamnięciem body
+                    <br> alert + nawias otwarty + tekst w pojedynczych cudzysłowiach. (alert wyświetlający się po
+                    uruchomieniu strony)
+                    <br> console.log - tworzy ukryty w narzędziach developera tekst (nie wyświetla się na stronie)
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Strona domowa Bartłomieja Garguli która jest efektem szkolenia WTF: Co ten frontend. <a href="#top">Wróć na górę
+            strony</a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+
+body {
+    background-image: url(blue-purple.jpg);
+    background-attachment: fixed;
+}
+#navigation {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+.navigation-item {
+    display: inline;
+    padding: 30px;
+}
+.white-header {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.header-span {
+    color: #fdf900;
+    font-size: 35px;
+}
+.yellow-header {
+    color: rgb(255, 212, 22);
+}
+.orange-header {
+    color: rgb(255, 155, 6);
+    text-transform: uppercase;
+}
+.paragraph {
+    color: white;
+}
+section {
+    background: rgba(128, 122, 136, 0.582);
+    border-radius: 15px;
+    border-color: rgb(222, 215, 228);
+    border-style: solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px 140px 20px 140px;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: purple;
+}
+a:active {
+    color: rgb(243, 8, 8)
+}
+li {
+    color: purple;
+    margin-left: 10px;
+    line-height: 1.5em;
+}
+span {
+    font-size: 20px;
+}
+.note {
+    color: orange;
+}
+.numbers {
+    color:white;
+}
+#footer {
+    background: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+}
