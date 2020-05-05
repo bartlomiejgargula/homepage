@@ -1,7 +1,15 @@
 body {
-  background-image: url(blue-purple.jpg);
-  background-attachment: fixed;
+    background: linear-gradient(95deg, #2e22aa,#de499b);
 }
+.section {
+    background: rgba(128, 122, 136, 0.582);
+    border-radius: 15px;
+    border-color: rgb(222, 215, 228);
+    border-style: solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px 140px 20px 140px;
+  }
 #navigation {
   font-size: 20px;
   font-weight: bolder;
@@ -36,15 +44,6 @@ body {
 }
 .paragraph {
   color: white;
-}
-section {
-  background: rgba(128, 122, 136, 0.582);
-  border-radius: 15px;
-  border-color: rgb(222, 215, 228);
-  border-style: solid;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin: 0px 140px 20px 140px;
 }
 a {
   color: white;
