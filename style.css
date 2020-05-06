@@ -1,6 +1,40 @@
 body {
     background: linear-gradient(95deg, #2e22aa,#de499b);
 }
+
+/* main navigation */
+
+.navigation {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navigation__link {
+  display: inline;
+  padding: 30px;
+}
+
+/* header */
+
+.header__title {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.header__span {
+  color: #fdf900;
+  font-size: 35px;
+}
+.div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* section */
+
 .section {
     background: rgba(128, 122, 136, 0.582);
     border-radius: 15px;
@@ -10,38 +44,23 @@ body {
     padding-right: 50px;
     margin: 0px 140px 20px 140px;
   }
-#navigation {
-  font-size: 20px;
-  font-weight: bolder;
-  text-align: center;
-  text-transform: uppercase;
+
+/* article */
+
+.description {
+  color: #ffffff;
 }
-.div {
-  display: flex;
-  justify-content: space-between;
-}
-.navigation-item {
-  display: inline;
-  padding: 30px;
-}
-.white-header {
-  color: white;
-  font-size: 35px;
-  text-align: center;
-}
-.header-span {
-  color: #fdf900;
-  font-size: 35px;
-}
-.yellow-header {
-  color: rgb(255, 212, 22);
-  font-size: 20px;
-}
-.orange-header {
+.description__heading {
   color: rgb(255, 155, 6);
   text-transform: uppercase;
   font-size: 25px;
 }
+
+.yellow-header {
+  color: rgb(255, 212, 22);
+  font-size: 20px;
+}
+
 .paragraph {
   color: white;
 }

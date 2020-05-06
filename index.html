@@ -9,40 +9,39 @@
 
   <body>
     <main>
-      <header>
-        <nav id="navigation">
+
+        <nav class="navigation">
           <ul>
-            <li class="navigation-item">
-              <a href="index.html">Strona główna</a>
-            </li>
-            <li class="navigation-item"><a href="notatki.html">Notatki</a></li>
-            <li class="navigation-item"><a href="etapy.html">Etapy</a></li>
+            <li class="navigation__link"><a href="index.html">Strona główna</a></li>
+            <li class="navigation__link"><a href="notatki.html">Notatki</a></li>
+            <li class="navigation__link"><a href="etapy.html">Etapy</a></li>
           </ul>
         </nav>
-      </header>
-      <header>
-        <h1 class="white-header">
+
+      <header class="header">  <!-- wymyślić stylowanie headera -->
+        <h1 class="header__title">
           Strona główna kursu
-          <span class="header-span">WTF: CO TEN FRONTEND</span>
+          <span class="header__span">WTF: CO TEN FRONTEND</span>
         </h1>
       </header>
+
       <section class="section">
-        <article>
-          <h2 class="orange-header">Kim jestem?</h2>
-          <div class="test-flex">
-            <p class="paragraph">
+        <article class="description">
+          <h2 class="description__heading">Kim jestem?</h2>
+          <div class="test-flex"> <!-- zająć się divem ze zdjęciem-->
+            <p>
               Pochodzę z Nowego Sącza, miejscowości położonej na południu
-              Polski, oddalonej 100 km od Krakowa. <br />
+              Polski, oddalonej 100 km od Krakowa. <br>
               Od 2016 roku jestem związany z branżą hotelarską, gdzie pracuję
               jako Senior Event Sales Executive.
             </p>
-            <p class="paragraph">
+            <p>
               <strong>Segment MICE</strong> (Meeting, Incentives, Conferences,
-              Events) w którym pracuję opiera się głównie <br />
+              Events) w którym pracuję opiera się głównie <br>
               na współpracy z klientami korporacyjnymi organizującymi
-              konferencje i szkolenia,jak również <br />
+              konferencje i szkolenia,jak również <br>
               z klientami indywidualnymi chcącymi zorganizować imprezy
-              okolicznościowe.<br />
+              okolicznościowe.<br>
               Aktualnie mieszkam i pracuję w Warszawie w
               <strong>Regent Warsaw Hotel.</strong>
             </p>
@@ -54,7 +53,7 @@
               width="189"
               height="175"
             />
-            <p class="paragraph">
+            <p>
               Wolne chwilę lubię spędzać przy dobrym filmie/serialu i książce,
               ponadto ostatnio zacząłem <br />
               bardziej interesować się ekonomią, oraz inwestowaniem i oczywiście
@@ -66,8 +65,8 @@
               W przyszłości marzę o własnym domku na odludziu, który byłby
               odskocznią od codziennego zgiełku 😊.
             </p>
-            <h2 class="orange-header">Ulubiony film</h2>
-            <p class="paragraph">
+            <h2 class="description__heading">Ulubiony film</h2>
+            <p>
               Jako że jestem fanem filmów szeroko rozumianych jako
               psychologiczne, bezsprzecznym liderem jest tutaj
               <a href="https://www.imdb.com/title/tt0137523/" target="_blank"
@@ -78,12 +77,13 @@
               smaczek. Mam za sobą również lekturę książki na podstawie której
               został nakręcony.
             </p>
-            <h2 class="orange-header">Ulubiony serial</h2>
-            <p class="paragraph">TBA</p>
-            <h2 class="orange-header">Ulubiona książka</h2>
-            <p class="paragraph">TBA</p>
+            <h2 class="description__heading">Ulubiony serial</h2>
+            <p>TBA</p>
+            <h2 class="description__heading">Ulubiona książka</h2>
+            <p>TBA</p>
           </div>
         </article>
+        
       </section>
       <section class="section">
         <h2 class="orange-header">Dziennik szkolenia</h2>
@@ -289,6 +289,21 @@
                 <li><span class="span-dot">git commit -m "opis zmiany"</span></li>
                 <li><span class="span-dot">git push</span></li>
               </ul>
+
+              <h3 class="yellow-header">BEM - Block - Element - Modifier </h3> 
+                <p class="paragraph"><span class="note">Block</span> - nadrzędny element <br>
+                  <span class="note">Element</span> - część tego bloku, nie musi być bezpośrednim dzieckiem <br>
+                  <span class="note">Modifier</span> - jeśli element występuje w kilku wariacjach, dodajemy dodatkową klasę
+                </p>
+                  <p class="paragraph"> Sposób zapisu: block__element--modifier <br>
+                    W CSS: dobrze jest ustawiać elementy alfabetycznie, np. article__cover nad article__date, etc. <br>
+                    Najlepiej jest używać pełnych nazw klas. <br>
+                    Tworzymy dwie klasy jeśli element ma modyfikator (w modyfkatorze zmieniamy tylko unikalne dla niego wartości, nie przepisujemy rzeczy z klasy bazowej) <br>
+                    Modyfikatory można wrzucać zarówno na poziomie bloku, jak i elementu.
+
+                  </p>
+
+              </article>
     </main>
 
     <footer id="footer">
