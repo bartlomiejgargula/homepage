@@ -16,6 +16,18 @@ body {
   padding: 30px;
 }
 
+/* hyperlinks */
+
+a {
+  color: white;
+}
+a:hover {
+  color: purple;
+}
+a:active {
+  color: rgb(243, 8, 8);
+}
+
 /* header */
 
 .header__title {
@@ -55,40 +67,36 @@ body {
   text-transform: uppercase;
   font-size: 25px;
 }
-
-.yellow-header {
-  color: rgb(255, 212, 22);
-  font-size: 20px;
-}
-
-.paragraph {
-  color: white;
-}
-a {
-  color: white;
-}
-a:hover {
-  color: purple;
-}
-a:active {
-  color: rgb(243, 8, 8);
-}
-li {
+.purple-dotting {
   color: purple;
   margin-left: 10px;
   line-height: 1.5em;
 }
 
-.span-dot {
-    color:#ffffff;
+/* week-summary */
+
+.week-summary {
+  color: #ffffff;
 }
-.note {
+
+.week-summary__description--special {
   color: orange;
   font-size: 18px;
 }
-.numbers {
-  color: white;
+
+.week-summary__heading {
+  color: rgb(255, 155, 6);
+  text-transform: uppercase;
+  font-size: 25px;
 }
+
+.week-summary__subheading {
+  color: rgb(255, 212, 22);
+  font-size: 20px;
+}
+
+/* footer */
+
 #footer {
   background: black;
   color: white;
