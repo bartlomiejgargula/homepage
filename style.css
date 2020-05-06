@@ -57,6 +57,12 @@ a:active {
     margin: 0px 140px 20px 140px;
   }
 
+/* h2 - about */
+
+.about {
+  color: rgb(250, 209, 233);
+}
+
 /* article */
 
 .description {
@@ -65,7 +71,7 @@ a:active {
 .description__heading {
   color: rgb(255, 155, 6);
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 20px;
 }
 .purple-dotting {
   color: purple;
@@ -87,7 +93,7 @@ a:active {
 .week-summary__heading {
   color: rgb(255, 155, 6);
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .week-summary__subheading {
