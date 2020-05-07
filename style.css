@@ -87,10 +87,28 @@ a:active {
   text-transform: uppercase;
   font-size: 20px;
 }
-.purple-dotting {
-  color: purple;
-  margin-left: 10px;
-  line-height: 1.5em;
+
+/* week summary navi */
+
+.week__navi {
+  background: rgba(255,255,255,0.4);
+  color: #ffffff;
+  display:inline-block;
+  width: 200px;
+  height: 80px;
+  padding: 25px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-right: 4px;
+  margin-left: 4px;
+  box-sizing: border-box; 
+  position: relative;
+}
+.week__navi--insert {
+  position:absolute;
+  top: 30px;
+  left: 55px;
 }
 
 /* week-summary */
@@ -124,32 +142,4 @@ a:active {
   text-align: center;
   margin-left: 140px;
   margin-right: 140px;
-}
-
-/* testowe boxy */
-
-.box {
-  background: rgba(255,255,255,0.4);
-  color: #ffffff;
-  display:inline-block;
-  width: 200px;
-  height: 80px;
-  padding: 25px;
-  border: 2px solid white;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  margin-right: 4px;
-  margin-left: 4px;
-  box-sizing: border-box; 
-  position: relative;
-}
-.inside-box {
-  position:absolute;
-  top: 30px;
-  left: 55px;
-}
-
-.absolute {
-  position: absolute;
-  top: 50px;
 }
