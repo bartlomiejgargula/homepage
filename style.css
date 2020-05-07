@@ -137,9 +137,16 @@ a:active {
   padding: 25px;
   border: 2px solid white;
   border-radius: 5px;
-  margin: 2px;
+  margin-bottom: 20px;
+  margin-right: 4px;
+  margin-left: 4px;
   box-sizing: border-box; 
   position: relative;
+}
+.inside-box {
+  position:absolute;
+  top: 30px;
+  left: 55px;
 }
 
 .absolute {
