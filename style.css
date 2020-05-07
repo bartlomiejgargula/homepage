@@ -41,21 +41,6 @@ a:active {
   font-size: 35px;
 }
 
-/* flex */
-
-.container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.child1 {
-  background: black;
-}
-
-.child2 {
-  background: white;
-}
-
 /* section */
 
 .about {
@@ -67,6 +52,24 @@ a:active {
     padding-right: 50px;
     margin: 0px 140px 20px 140px;
   }
+  
+/* flex */
+
+.about__description--flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__column {
+  background: rgba(255,255,255,0.1);
+  display:inline-block;
+  height: 205px;
+  padding: 5px;
+}
+
+.about__photograph {
+  padding-right: 579px;
+}
 
 /* h2 - about */
 
