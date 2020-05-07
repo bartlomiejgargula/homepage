@@ -52,7 +52,7 @@ a:active {
     padding-right: 50px;
     margin: 0px 140px 20px 140px;
   }
-  
+
 /* flex */
 
 .about__description--flex {
@@ -130,12 +130,14 @@ a:active {
 
 .box {
   background: rgba(255,255,255,0.4);
-  color: black;
+  color: #ffffff;
   display:inline-block;
+  width: 200px;
+  height: 80px;
   padding: 25px;
-  border: 10px solid #ffffff;
-  border-radius: 10px;
-  margin: 50px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 2px;
   box-sizing: border-box; 
   position: relative;
 }
