@@ -40,7 +40,7 @@ a:active {
   color: #fdf900;
   font-size: 35px;
 }
-.div {
+.test-flex {
   display: flex;
   justify-content: space-between;
 }
@@ -110,4 +110,23 @@ a:active {
   text-align: center;
   margin-left: 140px;
   margin-right: 140px;
+}
+
+/* testowe boxy */
+
+.box {
+  background: rgba(255,255,255,0.4);
+  color: black;
+  display:inline-block;
+  padding: 25px;
+  border: 10px solid #ffffff;
+  border-radius: 10px;
+  margin: 50px;
+  box-sizing: border-box; 
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 50px;
 }
