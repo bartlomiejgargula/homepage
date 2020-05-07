@@ -47,7 +47,7 @@ a:active {
 
 /* section */
 
-.section {
+.about {
     background: rgba(128, 122, 136, 0.582);
     border-radius: 15px;
     border-color: rgb(222, 215, 228);
@@ -59,16 +59,16 @@ a:active {
 
 /* h2 - about */
 
-.about {
+.about__header {
   color: rgb(250, 209, 233);
 }
 
 /* article */
 
-.description {
+.about__description {
   color: #ffffff;
 }
-.description__heading {
+.about__description--heading {
   color: rgb(255, 155, 6);
   text-transform: uppercase;
   font-size: 20px;
