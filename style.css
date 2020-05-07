@@ -40,9 +40,20 @@ a:active {
   color: #fdf900;
   font-size: 35px;
 }
-.test-flex {
+
+/* flex */
+
+.container {
   display: flex;
   justify-content: space-between;
+}
+
+.child1 {
+  background: black;
+}
+
+.child2 {
+  background: white;
 }
 
 /* section */
