@@ -5,13 +5,23 @@ body {
 /* main navigation */
 
 .navigation {
-  font-size: 20px;
-  font-weight: bolder;
-  text-align: center;
-  text-transform: uppercase;
-  
+  list-style: none;
 }
 
+.navigation li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.navigation li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navigation li a:hover {
+  color: red;
+  padding-bottom: 3px;
+  border-bottom: 1px solid black;
+}
 .navigation__link {
   display: inline;
   padding: 30px;
