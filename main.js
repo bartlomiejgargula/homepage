@@ -6,7 +6,7 @@ function helloWorld (){
 }
 const heading = document.querySelector('.header__title--js');
 
-heading.innerHTML = `Cześć! Jestem ${name} i mam ${age} lat. To jest moja strona z notatkami ze szkolenia WTF: Co ten frontend.`
+heading.innerHTML = `Strona robocza kursu WTF Co ten frontend`
 
 
 function greet(age, name) {
@@ -14,7 +14,7 @@ function greet(age, name) {
         `Cześć! Jestem ${name} i mam ${age} lat. To jest moja strona z notatkami ze szkolenia WTF: Co ten frontend.`)
     }
 
-greet (32, 'Krzysiek')
+greet (age, name)
 
 
 function createContent(querySelectorContent, content) {
