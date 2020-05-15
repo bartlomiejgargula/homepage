@@ -1,3 +1,7 @@
+
+
+
+
 body {
     background: linear-gradient(95deg, #2e22aa,#de499b);
 }
@@ -6,6 +10,7 @@ body {
   max-width: 1500px;
   margin: 0 auto;
 }
+
 /* main navigation */
 
 .navigation {
@@ -15,6 +20,7 @@ body {
   font-size: 25px;
   justify-content: center;
   background: rgba(128, 122, 136, 0.274);
+
 }
 
 .navigation a {
@@ -75,7 +81,8 @@ a:active {
 .about__description--flex {
   display: flex;
   justify-content: flex-end;
-  flex-flow: row-reverse nowrap;
+  flex-flow: row-reverse wrap-reverse;
+  overflow: auto;
 }
 
 .about__column {
@@ -84,9 +91,8 @@ a:active {
   padding-left: 30px;
   background: rgba(128, 122, 136, 0.274)
 }
-
 .about__photograph {
-  
+
 }
 
 /* h2 - about */
