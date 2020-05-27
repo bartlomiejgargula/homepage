@@ -30,17 +30,15 @@ body {
   background: rgba(246, 242, 250, 0.137);
 }
 
-.navigation a {
+.navigation__link {
   color: white;
   text-decoration: none;
   padding: 10px 50px;
   text-align: center;
 }
 
-.navigation a:hover {
-  color: yellow;
-  padding-bottom: 5px;
-  border-bottom: 1px solid rgb(255, 255, 255);
+.hamburger {
+  display: none;
 }
 
 /* form */
@@ -195,31 +193,49 @@ a:active {
     background: #3c71d4;
   }
 
+  .header {
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: inline;
+  }
+
+  .main {
+    max-width: 1500px;
+    margin: 100px auto 0;
+  }
+
   .navigation {
-    display: flex;
+    display: none;
     top: 0;
     font-size: 16px;
     background: rgba(246, 242, 250, 0.137);
-    padding: 10px;
-    
+    padding: 0px;
   }
 
-  .navigation a {
+  .navigation--open {
+    display: block;
+  }
+
+  .navigation__link {
+    display: block;
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 5px 20px;
   }
   
-  .navigation a:hover {
-    color: yellow;
-    padding-bottom: 5px;
-    border-bottom: 1px solid rgb(255, 255, 255);
-  }
   .about {
     background: rgba(128, 122, 136, 0.473);
     border-color: rgb(222, 215, 228);
     padding: 0px 10px;
     margin: 0px 10px 20px 10px;
   }
-  
+
 }

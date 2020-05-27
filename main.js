@@ -17,9 +17,10 @@ function greet(age, name) {
 greet (age, name)
 
 
-function createContent(querySelectorContent, content) {
-    const element = document.querySelector(querySelectorContent);
-    element.innerHTML = content
-}
 
-createContent('.week-summary__subheading--jss', 'Witam wszystkich')
+const hamburger = document.querySelector(`.hamburger--js`);
+
+hamburger.addEventListener('click', () => {
+    const nav = document.querySelector('.navigation--js');
+    nav.classList.toggle('navigation--open');
+})
