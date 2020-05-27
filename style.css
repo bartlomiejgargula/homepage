@@ -167,6 +167,13 @@ a:active {
   font-size: 20px;
 }
 
+.week-summary-grid {
+  display: grid;
+  grid-template-areas: "article article";
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
 .week-summary__subheading {
   color: rgb(255, 212, 22);
   font-size: 20px;
