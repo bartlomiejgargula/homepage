@@ -3,14 +3,14 @@ html {
   scroll-behavior: smooth;
   }
 
-*, *:before, *:after {
-  box-sizing: inherit
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-
-
 body {
-    background: linear-gradient(95deg, #2e22aa,#de499b);
+  background: linear-gradient(95deg, #2e22aa, #de499b);
 }
 
 .main {
@@ -28,7 +28,6 @@ body {
   font-size: 25px;
   justify-content: center;
   background: rgba(246, 242, 250, 0.137);
-
 }
 
 .navigation a {
@@ -44,6 +43,20 @@ body {
   border-bottom: 1px solid rgb(255, 255, 255);
 }
 
+/* form */
+
+.form {
+  color: white;
+}
+
+.form__item {
+  width: 30%;
+}
+
+.form__label {
+  display: block;
+}
+
 /* hyperlinks */
 
 a {
@@ -56,7 +69,6 @@ a:hover {
 a:active {
   color: rgb(243, 8, 8);
 }
-
 
 /* header */
 
@@ -74,13 +86,13 @@ a:active {
 /* section */
 
 .about {
-    background: rgba(128, 122, 136, 0.473);
-    border-color: rgb(222, 215, 228);
-    border-style: double;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 0px 150px 20px 150px;
-  }
+  background: rgba(128, 122, 136, 0.473);
+  border-color: rgb(222, 215, 228);
+  border-style: double;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0px 150px 20px 150px;
+}
 
 /* flex */
 
@@ -95,7 +107,7 @@ a:active {
   height: 205px;
   padding: 5px;
   padding-left: 30px;
-  background: rgba(128, 122, 136, 0.274)
+  background: rgba(128, 122, 136, 0.274);
 }
 
 /* h2 - about */
@@ -118,9 +130,9 @@ a:active {
 /* week summary navi */
 
 .week__navi {
-  background: rgba(255,255,255,0.4);
+  background: rgba(255, 255, 255, 0.4);
   color: #ffffff;
-  display:inline-block;
+  display: inline-block;
   width: 200px;
   height: 80px;
   padding: 25px;
@@ -129,11 +141,11 @@ a:active {
   margin-bottom: 20px;
   margin-right: 4px;
   margin-left: 4px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   position: relative;
 }
 .week__navi--insert {
-  position:absolute;
+  position: absolute;
   top: 30px;
   left: 55px;
 }
@@ -163,18 +175,8 @@ a:active {
 /* footer */
 
 #footer {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   color: white;
   font-size: 20px;
   text-align: center;
-}
-
-.form {
-
-}
-
-.form__item {
-  width: 30%;
-  display: block;
-
 }

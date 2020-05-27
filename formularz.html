@@ -1,89 +1,124 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-</head>
-
-<body>
-        <nav class="navigation">
-            <a href="index.html">Strona główna</a>
-            <a href="notatki.html">Notatki</a>
-            <a href="formularz.html">Etapy</a>
-          </nav>
-            <main class="main">
-
-                <header class="header">
-                     <h1 class="header__title">
-                         Formularz
-               </header>
-               <section class="about">
+  <body>
+    <nav class="navigation">
+      <a href="index.html">Strona główna</a>
+      <a href="notatki.html">Notatki</a>
+      <a href="formularz.html">Formularz</a>
+    </nav>
+    <main class="main">
+      <header class="header">
+        <h1 class="header__title">
+          Formularz
+        </h1>
+      </header>
+      <section class="about">
         <form class="form">
-            <fieldset>
-                <legend>Dane osobowe</legend>
-                <p>
-                    <label for="imię">Imię</label>
-                    <input class="form__item" type="text" placeholder="wpisz Twoje imię" id="imię" name="Imię"></p>
-    
-                    <p>
-                        <label for="nazwisko">Nazwisko</label>
-                        <input class="form__item" type="text" placeholder="wpisz Twoje nazwisko" id="nazwisko" name="nazwisko"></p>
-    
-                        <p>
-                            <label for="email">email</label>
-                            <input class="form__item" type="email" placeholder="wpisz Twój adres email" id="email" name="email"></p>
-                            <p>
-                                <label for="telefon">numer telefonu</label>
-                                <input class="form__item" type="tel" placeholder="wpisz Twój numer telefonu" id="telefon" name="telefon"></p>
-                                <p>
-                                    <label for="avatar">avatar</label>
-                                    <input class="form__item" type="file" id="avatar" name="avatar"></p>
-                                    <p>
-                                        <label for="osoba">Kim jesteś</label>
-                                        <select name="osoba" id="osoba">
-                                            <option value="rodzaj-1">Developer</option>
-                                            <option value="rodzaj-2">Developer wannabe</option>
-                                            <option value="rodzaj-3">Odwiedzający</option>
-                                        </select>
-                                    </p>
+          <p>
+            <label class="form__label" for="imię">Imię</label>
+            <input
+              class="form__item"
+              type="text"
+              placeholder="wpisz Twoje imię"
+              id="imię"
+              name="Imię"
+            />
+          </p>
 
-                                        <p>
-                                            <label for="about">O mnie</label>
-                                            <textarea name="about" id="about"></textarea>
-                                        </p>
-                                  
-            </fieldset>
-</form>
-        
+          <p>
+            <label class="form__label" for="nazwisko">Nazwisko</label>
+            <input
+              class="form__item"
+              type="text"
+              placeholder="wpisz Twoje nazwisko"
+              id="nazwisko"
+              name="nazwisko"
+            />
+          </p>
 
-                                <fieldset>
-                                    <legend>Adres</legend>
-                                    <p>
-                                        <label for="miasto">miasto</label>
-                                        <input class="form__item" type="text" placeholder="wpisz Twoje miasto" id="miasto" name="miasto"></p>
-            
-                                        <p>
-                                            <label for="kod pocztowy">kod pocztowy</label>
-                                            <input class="form__item" type="text" placeholder="wpisz kod pocztowy miasta" id="kodPocztowy" name="kod pocztowy"></p>
-                                </fieldset>
-                                <p>
-                                    <input name="send" type="submit" value="send">
-                                </p>
+          <p>
+            <label class="form__label" for="email">Email</label>
+            <input
+              class="form__item"
+              type="email"
+              placeholder="wpisz Twój adres email"
+              id="email"
+              name="email"
+            />
+          </p>
+
+          <p>
+            <label class="form__label" for="telefon">Numer telefonu</label>
+            <input
+              class="form__item"
+              type="tel"
+              placeholder="wpisz Twój numer telefonu"
+              id="telefon"
+              name="telefon"
+            />
+          </p>
+
+          <p>
+            <label class="form__label" for="avatar">Avatar</label>
+            <input class="form__item" type="file" id="avatar" name="avatar" />
+          </p>
+
+          <p>
+            <label class="form__label" for="osoba">Kim jesteś</label>
+            <select name="osoba" id="osoba">
+              <option value="rodzaj-1">Developer</option>
+              <option value="rodzaj-2">Developer wannabe</option>
+              <option value="rodzaj-3">Odwiedzający</option>
+            </select>
+          </p>
+
+          <p>
+            <label class="form__label" for="about">O mnie</label>
+            <textarea name="about" id="about"></textarea>
+          </p>
+          <p>
+            <label class="form__label" for="miasto">Miasto</label>
+            <input
+              class="form__item"
+              type="text"
+              placeholder="wpisz Twoje miasto"
+              id="miasto"
+              name="miasto"
+            />
+          </p>
+
+          <p>
+            <label class="form__label" for="kod pocztowy">Kod pocztowy</label>
+            <input
+              class="form__item"
+              type="text"
+              placeholder="wpisz kod pocztowy miasta"
+              id="kodPocztowy"
+              name="kod pocztowy"
+            />
+          </p>
+
+          <p>
+            <input name="send" type="submit" value="send" />
+          </p>
         </form>
-       </section>
+      </section>
     </main>
     <footer id="footer">
-        <a href="#top">Wróć na górę strony</a> <br />
-        <span
-          >Strona domowa Bartłomieja Garguli która jest efektem szkolenia WTF: Co
-          ten frontend.</span>
-      </footer>
+      <a href="#top">Wróć na górę strony</a> <br />
+      <span
+        >Strona domowa Bartłomieja Garguli która jest efektem szkolenia WTF: Co
+        ten frontend.</span
+      >
+    </footer>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>

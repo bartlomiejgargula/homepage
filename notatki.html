@@ -1,452 +1,450 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-</head>
-
-<body>
-    
-        <nav class="navigation">
-            <a href="index.html">Strona główna</a>
-            <a href="notatki.html">Notatki</a>
-            <a href="formularz.html">Etapy</a>
-          </nav>
+  <body>
+    <nav class="navigation">
+      <a href="index.html">Strona główna</a>
+      <a href="notatki.html">Notatki</a>
+      <a href="formularz.html">Formularz</a>
+    </nav>
 
     <main class="main">
+      <header class="header__title">
+        <!-- wymyślić stylowanie headera -->
+        <h1 class="white-header">Nauka HTML</h1>
+      </header>
 
-        <header class="header__title"> <!-- wymyślić stylowanie headera -->
-            <h1 class="white-header">Nauka HTML</h1>
-        </header>
+      <section class="about">
+        <h3 class="about__description--heading">Dziennik szkolenia</h3>
+        <a href="#week1"
+          ><div class="week__navi">
+            <div class="week__navi--insert">TYDZIEŃ I</div>
+          </div></a
+        >
+        <a href="#week2"
+          ><div class="week__navi">
+            <div class="week__navi--insert">TYDZIEŃ II</div>
+          </div></a
+        >
+        <a href="#week3"
+          ><div class="week__navi">
+            <div class="week__navi--insert">TYDZIEŃ III</div>
+          </div></a
+        >
+        <a href="#week4"
+          ><div class="week__navi">
+            <div class="week__navi--insert">TYDZIEŃ IV</div>
+          </div></a
+        >
+        <a href="#week5"
+          ><div class="week__navi">
+            <div class="week__navi--insert">TYDZIEŃ V</div>
+          </div></a
+        >
+        <a href="#week6"
+          ><div class="week__navi">
+            <div class="week__navi--insert">TYDZIEŃ VI</div>
+          </div></a
+        >
+        <a href="#week7"
+          ><div class="week__navi">
+            <div class="week__navi--insert">TYDZIEŃ VII</div>
+          </div></a
+        >
+        <a href="#week8"
+          ><div class="week__navi">
+            <div class="week__navi--insert">TYDZIEŃ VIII</div>
+          </div></a
+        >
+        <a href="#week9"
+          ><div class="week__navi">
+            <div class="week__navi--insert">TYDZIEŃ IX</div>
+          </div></a
+        >
+        <a href="#week10"
+          ><div class="week__navi">
+            <div class="week__navi--insert">TYDZIEŃ X</div>
+          </div></a
+        >
+        <a href="#week11"
+          ><div class="week__navi">
+            <div class="week__navi--insert">TYDZIEŃ XI</div>
+          </div></a
+        >
+        <a href="#week12"
+          ><div class="week__navi">
+            <div class="week__navi--insert">TYDZIEŃ XII</div>
+          </div></a
+        >
+        <a href="#week13"
+          ><div class="week__navi">
+            <div class="week__navi--insert">TYDZIEŃ XIII</div>
+          </div></a
+        >
+      </section>
 
-        <section class="about">
-            <h3 class="about__description--heading">Dziennik szkolenia</h3>
-            <a href="#week1"><div class="week__navi">
-                <div class="week__navi--insert">TYDZIEŃ I</div>
-              </div></a
+      <section class="about">
+        <h2 class="about__header">PRZEBIEG KURSU</h2>
+        <article class="week-summary">
+          <h3 id="week1" class="week-summary__heading">Tydzień I:</h3>
+          <p>
+            Z uwagi na to, że rozpocząłem szkolenie w trakcie trwania drugiego
+            tygodnia szkolenia, zmuszony byłem do nadrobienia materiału który
+            był zawarty w pierwszym tygodniu. Prowadzący kurs Maciek Korsan, w
+            bardzo przystępny sposób przedstawił czym będziemy się zajmować,
+            oraz jakie narzędzia są niezbędne do rozpoczęcia przygody z
+            programowaniem. Platformę można znaleźć pod odnośnikiem
+            <a href="https://www.cotenfrontend.pl" target="_blank">WTF</a>
+          </p>
+          <p>
+            Zbiór przydatnych pojęć i notatek znajduje się tutaj:
+            <a href="notatki.html">Przejdź do notatek</a>
+          </p>
+          <p>
+            Prawdziwa jazda bez trzymanki zaczyna się dopiero w
+            <a href="#week3">trzecim tygodniu</a>
+          </p>
+        </article>
+        <article class="week-summary">
+          <h3 id="week2" class="week-summary__heading">Tydzień II:</h3>
+          <p>
+            Tydzień drugi rozpoczął się od poznania warstw strony internetowej,
+            oraz od delikatnego wprowadzenia do HTML i CSS (świetne porównanie z
+            blokiem mieszkalnym – bardzo zapada w pamięć 😊). <br />Poznaliśmy
+            podstawowe komendy, poszczególne elementy kodu. Świetną rozrywką
+            okazało się poznanie devtools, dostępnych na każdej stronie
+            internetowej, oraz możliwości jakie się z nimi wiążą. Wisienką na
+            torcie jest kilka zadań które otrzymaliśmy od Maćka, dzięki którym
+            będziemy mogli przetestować swoją wiedzę w praktyce.
+          </p>
+
+          <p>Strona www ma 4 warstwy:</p>
+          <ol start="0">
+            <li>
+              <span class="week-summary__description--special">treść</span>
+            </li>
+            <li>
+              <span class="week-summary__description--special">HTML</span>
+            </li>
+            <li><span class="week-summary__description--special">CSS</span></li>
+            <li>
+              <span class="week-summary__description--special"
+                >Java Script</span
+              >
+            </li>
+          </ol>
+          <p>
+            Chrome - funkcja "inspect" do badania kodu wyświetlanej strony
+            (Firefox też ma tę funkcję)
+          </p>
+          <p>
+            <a href="https://validator.w3.org/nu/#textarea" target="_blank"
+              >Validator</a
             >
-            <a href="#week2"
-              ><div class="week__navi">
-                <div class="week__navi--insert">TYDZIEŃ II</div>
-              </div></a
+            - sprawdza kod i wskazuje błędy
+          </p>
+          <p>
+            Dobrym zwyczajem jest podawanie rozmiarów umieszczonego na stronie
+            obrazka - jeśli nie wczyta się on u użytkownika, nie zmieni to
+            układu reszty elementów.<br />
+            ( src="obrazek.jpg" alt="tekst alternatywny" width="x" height="y" )
+          </p>
+          <p>
+            &lt;link href="style.css" rel="stylesheet" type="text/css"&gt; -
+            odnośnik do zewnętrznego arkusza stylów (w części HEAD kodu)
+          </p>
+          <p>
+            &lt;!-- tekst --&gt; - komentarz do kodu HTML, tekst ignorowany
+            przez przeglądarkę
+          </p>
+          <p>/* tekst */ - komentarz do kodu CSS</p>
+          <p>
+            Przy wstawianiu obrazka (lub innego odnośnika) - WZGLĘDNA ścieżka
+            dostępu - czyli według umiejscowienia względem katalogu strony
+            (ważne przy wrzucaniu na serwer).
+          </p>
+        </article>
+        <article class="week-summary">
+          <h3 id="week3" class="week-summary__heading">Tydzień III:</h3>
+          <p>
+            <span class="week-summary__description--special">Kanban</span> -
+            japoński termin określający listę przeczy do zrobienia. Ułatwia
+            śledzenie postępów pracy. Składa się z trzech obszarów:
+          </p>
+          <ul>
+            <li>to do</li>
+            <li>doing</li>
+            <li>done</li>
+          </ul>
+          <p>
+            Praktyczny kanban online:
+            <a href="https://trello.com" target="_blank">Trello.com</a>
+          </p>
+
+          <h3 class="week-summary__subheading">Nazewnictwo w programowaniu:</h3>
+          <ul>
+            <li>bez polskich znaków</li>
+            <li>bez spacji</li>
+            <li>po angielsku</li>
+            <li>konsekwentnie, według jakiegoś schematu.</li>
+            <li>nie zaczynamy od cyfry</li>
+          </ul>
+
+          <h3 class="week-summary__subheading">Konwencja nazewnictwa</h3>
+
+          <ul>
+            <li>
+              <span class="week-summary__description--special">camelCase</span>-
+              np. myHeader
+            </li>
+            <li>
+              <span class="week-summary__description--special">kebab-case</span
+              >- np. my-header
+            </li>
+            <li>
+              <span class="week-summary__description--special">snake_case</span
+              >- np. my_header
+            </li>
+            <li>
+              <span class="week-summary__description--special">PascalCase</span
+              >- np. MyHeader
+            </li>
+          </ul>
+
+          <h3 class="week-summary__subheading">
+            Różne rodzaje stylowania w CSS
+          </h3>
+          <ul>
+            <li>
+              styl
+              <span class="week-summary__description--special">inline</span>-
+              wewnątrz znacznika, miejscowo.<br />
+              &lt;znacznik style="color:red;"&gt;treść&lt;/znacznik&gt;
+            </li>
+            <li>
+              atrybut
+              <span class="week-summary__description--special">class</span> dla
+              grupy elementów.<br />
+              &lt;znacznik class="name"&gt;treść&lt;/znacznik&gt;<br />
+              w CSS klasę oznaczamy kropką: .name { } Nazwa klasy w kebab-case.
+            </li>
+            <li>
+              stylowanie za pomocą
+              <span class="week-summary__description--special">id</span><br />
+              &lt;znacznik id="name"&gt;treść&lt;/znacznik&gt;<br />
+              w CSS identyfikator oznaczamy krzyżykiem (hashem): #name { } Na
+              stronie tylko jeden znacznik powinien mieć id="name" - służy do
+              wewnętrznej nawigacji po stronie.
+            </li>
+            <li>
+              <span class="week-summary__description--special">!important</span>
+              - polecenie wstawiane po wartości danej właściwości<br />
+              selektor {<br />
+              właściwość: wartość !important;<br />
+              }<br />
+              To zła praktyka. To polecenie unieważnia i nadpisuje inne reguły,
+              powodując zamieszanie - lepiej nie używać.
+            </li>
+          </ul>
+          <h3 class="week-summary__subheading">
+            <b>Specyficzność w CSS</b> (od najważniejszej):
+          </h3>
+          <ol>
+            <li>
+              <span class="week-summary__description--special">!important</span>
+            </li>
+            <li>
+              <span class="week-summary__description--special"
+                >style inline</span
+              >
+            </li>
+            <li><span class="week-summary__description--special">id</span></li>
+            <li>
+              <span class="week-summary__description--special">class</span>
+            </li>
+            <li>
+              <span class="week-summary__description--special">element</span>
+            </li>
+          </ol>
+          <p>
+            Jeśli specyficzność jest równa, ważniejszy jest selektor "bliżej"
+            danego elementu (czyli te facto to, co jest niżej w kodzie).
+          </p>
+
+          <h3 class="week-summary__subheading">Jak działa internet</h3>
+          <p>
+            <span class="week-summary__description--special">HTTP(S)</span> -
+            Hypertext Transfer Protocol (Secure) - protokół, którego używa
+            przeglądaka do transportowania HTML-a. Poclass="paragraph" zbiera i
+            wyświetla pliki znajdujące się w stronach internetowych.
+          </p>
+          <p>
+            <span class="week-summary__description--special">URL</span> -
+            Uniform Resource Locator - adres, który wpisujemy. Ten adres składa
+            się z kilku części:
+          </p>
+
+          <ul>
+            <li>
+              <span class="week-summary__description--special">https://</span> -
+              protokół
+            </li>
+            <li>
+              <span class="week-summary__description--special"
+                >cotenfrontend.pl
+              </span>
+              - host (adres serwera)
+            </li>
+            <li>
+              <span class="week-summary__description--special">:443 </span> -
+              port (ta część zazwyczaj jest dla użytkownika niewidoczna).
+              Wskazuje przeglądarce, na którym porcie na serwerze znajdują się
+              pliki strony
+            </li>
+            <li>
+              <span class="week-summary__description--special"
+                >bardzo ważny znak /- <b>root</b></span
+              >
+              - przy podawaniu ścieżki do zasobów (src). Jeśli podajemy źródło
+              ze slashem na początku (src="/img.jpg"), przeglądarka szuka w
+              katalogu głównym. Jeśli podajemy bez (src="img.jpg") - szuka w
+              katalogu <b>aktualnym</b>, czyli np w katalogu podstrony. Dlatego
+              lepiej podawać źródło (na serwerze) ze slashem na początku.
+            </li>
+            <li>
+              <span class="week-summary__description--special">index.html</span>
+              - ścieżka dostępu do zasobu
+            </li>
+            <li>
+              <span class="week-summary__description--special"
+                >?paramert=wartość</span
+              >
+              - parametry
+            </li>
+          </ul>
+
+          <p>
+            <span class="week-summary__description--special">DNS</span> - Domain
+            Name System - system tłumaczący nazwę mnemoniczną (czyli "dla
+            ludzi") na odpowiadający jej adres IP.
+          </p>
+          <p>
+            <span class="week-summary__description--special">parsowanie</span> -
+            sprawdzanie składni
+          </p>
+          <h3 class="week-summary__subheading">
+            Kody odpowiedzi protokołu HTTP:
+          </h3>
+          <ul>
+            <li>
+              <span class="week-summary__description--special">10x</span> -
+              czekaj
+            </li>
+            <li>
+              <span class="week-summary__description--special">200</span> -
+              wszystko ok.
+            </li>
+            <li>
+              <span class="week-summary__description--special">30x</span> -
+              Przekierowania: szukasz w złym miejscu - przekieruję cię w dobre,
+              bo wiem, gdzie.
+            </li>
+            <li>
+              <span class="week-summary__description--special">404</span> - nie
+              mam tego, czego potrzebujesz :(
+            </li>
+            <li>
+              <span class="week-summary__description--special">50x</span> -
+              błędy serwera
+            </li>
+          </ul>
+          <p>Kody możemy sprawdzić w Devtools (F12) w zakładce Network.</p>
+
+          <h3 class="week-summary__subheading">JavaScript</h3>
+          <p>
+            JavaScript jest językiem programowania opartym na specyfikacji
+            ECMAScript 6+.
+          </p>
+          <p>JavaScript składa się z:</p>
+          <ul>
+            <li>wartości</li>
+            <li>operacji porównywania</li>
+            <li>literałów</li>
+            <li>zmiennych</li>
+            <li>obiektów</li>
+            <li>funkcji</li>
+          </ul>
+          <p>
+            JavaScript - znacznik script jest dodawany zawsze na dole strony -
+            po footerze, przed zamnięciem body <br />
+            alert + nawias otwarty + tekst w pojedynczych cudzysłowiach. (alert
+            wyświetlający się po uruchomieniu strony) <br />
+            console.log - tworzy ukryty w narzędziach developera tekst (nie
+            wyświetla się na stronie)
+          </p>
+        </article>
+
+        <article class="week-summary">
+          <h3 id="week4" class="week-summary__heading">Tydzień IV:</h3>
+          <p>
+            <span class="week-summary__description--special">GitHUB</span> -
+            Pozwalający na śledzenie zmian w kodzie. Podstawowy flow to:
+          </p>
+          <ul>
+            <li>git add .</li>
+            <li>git commit -m "opis zmiany"</li>
+            <li>git push</li>
+          </ul>
+
+          <h3 class="week-summary__subheading">
+            BEM - Block - Element - Modifier
+          </h3>
+          <p>
+            <span class="week-summary__description--special">Block</span> -
+            nadrzędny element <br />
+            <span class="week-summary__description--special">Element</span> -
+            część tego bloku, nie musi być bezpośrednim dzieckiem <br />
+            <span class="week-summary__description--special">Modifier</span> -
+            jeśli element występuje w kilku wariacjach, dodajemy dodatkową klasę
+          </p>
+          <p>
+            Sposób zapisu: block__element--modifier <br />
+            W CSS: dobrze jest ustawiać elementy alfabetycznie, np.
+            article__cover nad article__date, etc. <br />
+            Najlepiej jest używać pełnych nazw klas. <br />
+            Tworzymy dwie klasy jeśli element ma modyfikator (w modyfkatorze
+            zmieniamy tylko unikalne dla niego wartości, nie przepisujemy rzeczy
+            z klasy bazowej) <br />
+            Modyfikatory można wrzucać zarówno na poziomie bloku, jak i
+            elementu.
+          </p>
+
+          <h3 class="week-summary__subheading">
+            Właściwości displayowe elementów
+          </h3>
+          <p>
+            <span class="week-summary__description--special"
+              >display:inline</span
             >
-            <a href="#week3"
-              ><div class="week__navi">
-                <div class="week__navi--insert">TYDZIEŃ III</div>
-              </div></a
-            >
-            <a href="#week4"
-              ><div class="week__navi">
-                <div class="week__navi--insert">TYDZIEŃ IV</div>
-              </div></a
-            >
-            <a href="#week5"
-              ><div class="week__navi">
-                <div class="week__navi--insert">TYDZIEŃ V</div>
-              </div></a
-            >
-            <a href="#week6"
-              ><div class="week__navi">
-                <div class="week__navi--insert">TYDZIEŃ VI</div>
-              </div></a
-            >
-            <a href="#week7"
-              ><div class="week__navi">
-                <div class="week__navi--insert">TYDZIEŃ VII</div>
-              </div></a
-            >
-            <a href="#week8"
-              ><div class="week__navi">
-                <div class="week__navi--insert">TYDZIEŃ VIII</div>
-              </div></a
-            >
-            <a href="#week9"
-              ><div class="week__navi">
-                <div class="week__navi--insert">TYDZIEŃ IX</div>
-              </div></a
-            >
-            <a href="#week10"
-              ><div class="week__navi">
-                <div class="week__navi--insert">TYDZIEŃ X</div>
-              </div></a
-            >
-            <a href="#week11"
-              ><div class="week__navi">
-                <div class="week__navi--insert">TYDZIEŃ XI</div>
-              </div></a
-            >
-            <a href="#week12"
-              ><div class="week__navi">
-                <div class="week__navi--insert">TYDZIEŃ XII</div>
-              </div></a
-            >
-            <a href="#week13"
-              ><div class="week__navi">
-                <div class="week__navi--insert">TYDZIEŃ XIII</div>
-              </div></a
-            >
-          </section>
-    
-          <section class="about">
-            <h2 class="about__header">PRZEBIEG KURSU</h2>
-            <article class="week-summary">
-              <h3 id="week1" class="week-summary__heading">Tydzień I:</h3>
-              <p>
-                Z uwagi na to, że rozpocząłem szkolenie w trakcie trwania drugiego
-                tygodnia szkolenia, zmuszony byłem do nadrobienia materiału który
-                był zawarty w pierwszym tygodniu. Prowadzący kurs Maciek Korsan, w
-                bardzo przystępny sposób przedstawił czym będziemy się zajmować,
-                oraz jakie narzędzia są niezbędne do rozpoczęcia przygody z
-                programowaniem. Platformę można znaleźć pod odnośnikiem
-                <a href="https://www.cotenfrontend.pl" target="_blank">WTF</a>
-              </p>
-              <p>
-                Zbiór przydatnych pojęć i notatek znajduje się tutaj:
-                <a href="notatki.html">Przejdź do notatek</a>
-              </p>
-              <p>
-                Prawdziwa jazda bez trzymanki zaczyna się dopiero w
-                <a href="#week3">trzecim tygodniu</a>
-              </p>
-            </article>
-            <article class="week-summary">
-              <h3 id="week2" class="week-summary__heading">Tydzień II:</h3>
-              <p>
-                Tydzień drugi rozpoczął się od poznania warstw strony internetowej,
-                oraz od delikatnego wprowadzenia do HTML i CSS (świetne porównanie z
-                blokiem mieszkalnym – bardzo zapada w pamięć 😊). <br />Poznaliśmy
-                podstawowe komendy, poszczególne elementy kodu. Świetną rozrywką
-                okazało się poznanie devtools, dostępnych na każdej stronie
-                internetowej, oraz możliwości jakie się z nimi wiążą. Wisienką na
-                torcie jest kilka zadań które otrzymaliśmy od Maćka, dzięki którym
-                będziemy mogli przetestować swoją wiedzę w praktyce.
-              </p>
-    
-              <p>Strona www ma 4 warstwy:</p>
-              <ol start="0">
-                <li>
-                  <span class="week-summary__description--special">treść</span>
-                </li>
-                <li>
-                  <span class="week-summary__description--special">HTML</span>
-                </li>
-                <li><span class="week-summary__description--special">CSS</span></li>
-                <li>
-                  <span class="week-summary__description--special"
-                    >Java Script</span
-                  >
-                </li>
-              </ol>
-              <p>
-                Chrome - funkcja "inspect" do badania kodu wyświetlanej strony
-                (Firefox też ma tę funkcję)
-              </p>
-              <p>
-                <a href="https://validator.w3.org/nu/#textarea" target="_blank"
-                  >Validator</a
-                >
-                - sprawdza kod i wskazuje błędy
-              </p>
-              <p>
-                Dobrym zwyczajem jest podawanie rozmiarów umieszczonego na stronie
-                obrazka - jeśli nie wczyta się on u użytkownika, nie zmieni to
-                układu reszty elementów.<br />
-                ( src="obrazek.jpg" alt="tekst alternatywny" width="x" height="y" )
-              </p>
-              <p>
-                &lt;link href="style.css" rel="stylesheet" type="text/css"&gt; -
-                odnośnik do zewnętrznego arkusza stylów (w części HEAD kodu)
-              </p>
-              <p>
-                &lt;!-- tekst --&gt; - komentarz do kodu HTML, tekst ignorowany
-                przez przeglądarkę
-              </p>
-              <p>/* tekst */ - komentarz do kodu CSS</p>
-              <p>
-                Przy wstawianiu obrazka (lub innego odnośnika) - WZGLĘDNA ścieżka
-                dostępu - czyli według umiejscowienia względem katalogu strony
-                (ważne przy wrzucaniu na serwer).
-              </p>
-            </article>
-            <article class="week-summary">
-              <h3 id="week3" class="week-summary__heading">Tydzień III:</h3>
-              <p>
-                <span class="week-summary__description--special">Kanban</span> -
-                japoński termin określający listę przeczy do zrobienia. Ułatwia
-                śledzenie postępów pracy. Składa się z trzech obszarów:
-              </p>
-              <ul>
-                <li>to do</li>
-                <li>doing</li>
-                <li>done</li>
-              </ul>
-              <p>
-                Praktyczny kanban online:
-                <a href="https://trello.com" target="_blank">Trello.com</a>
-              </p>
-    
-              <h3 class="week-summary__subheading">Nazewnictwo w programowaniu:</h3>
-              <ul>
-                <li>bez polskich znaków</li>
-                <li>bez spacji</li>
-                <li>po angielsku</li>
-                <li>konsekwentnie, według jakiegoś schematu.</li>
-                <li>nie zaczynamy od cyfry</li>
-              </ul>
-    
-              <h3 class="week-summary__subheading">Konwencja nazewnictwa</h3>
-    
-              <ul>
-                <li>
-                  <span class="week-summary__description--special">camelCase</span>-
-                  np. myHeader
-                </li>
-                <li>
-                  <span class="week-summary__description--special">kebab-case</span
-                  >- np. my-header
-                </li>
-                <li>
-                  <span class="week-summary__description--special">snake_case</span
-                  >- np. my_header
-                </li>
-                <li>
-                  <span class="week-summary__description--special">PascalCase</span
-                  >- np. MyHeader
-                </li>
-              </ul>
-    
-              <h3 class="week-summary__subheading">
-                Różne rodzaje stylowania w CSS
-              </h3>
-              <ul>
-                <li>
-                  styl
-                  <span class="week-summary__description--special">inline</span>-
-                  wewnątrz znacznika, miejscowo.<br />
-                  &lt;znacznik style="color:red;"&gt;treść&lt;/znacznik&gt;
-                </li>
-                <li>
-                  atrybut
-                  <span class="week-summary__description--special">class</span> dla
-                  grupy elementów.<br />
-                  &lt;znacznik class="name"&gt;treść&lt;/znacznik&gt;<br />
-                  w CSS klasę oznaczamy kropką: .name { } Nazwa klasy w kebab-case.
-                </li>
-                <li>
-                  stylowanie za pomocą
-                  <span class="week-summary__description--special">id</span><br />
-                  &lt;znacznik id="name"&gt;treść&lt;/znacznik&gt;<br />
-                  w CSS identyfikator oznaczamy krzyżykiem (hashem): #name { } Na
-                  stronie tylko jeden znacznik powinien mieć id="name" - służy do
-                  wewnętrznej nawigacji po stronie.
-                </li>
-                <li>
-                  <span class="week-summary__description--special">!important</span>
-                  - polecenie wstawiane po wartości danej właściwości<br />
-                  selektor {<br />
-                  właściwość: wartość !important;<br />
-                  }<br />
-                  To zła praktyka. To polecenie unieważnia i nadpisuje inne reguły,
-                  powodując zamieszanie - lepiej nie używać.
-                </li>
-              </ul>
-              <h3 class="week-summary__subheading">
-                <b>Specyficzność w CSS</b> (od najważniejszej):
-              </h3>
-              <ol>
-                <li>
-                  <span class="week-summary__description--special">!important</span>
-                </li>
-                <li>
-                  <span class="week-summary__description--special"
-                    >style inline</span
-                  >
-                </li>
-                <li><span class="week-summary__description--special">id</span></li>
-                <li>
-                  <span class="week-summary__description--special">class</span>
-                </li>
-                <li>
-                  <span class="week-summary__description--special">element</span>
-                </li>
-              </ol>
-              <p>
-                Jeśli specyficzność jest równa, ważniejszy jest selektor "bliżej"
-                danego elementu (czyli te facto to, co jest niżej w kodzie).
-              </p>
-    
-              <h3 class="week-summary__subheading">Jak działa internet</h3>
-              <p>
-                <span class="week-summary__description--special">HTTP(S)</span> -
-                Hypertext Transfer Protocol (Secure) - protokół, którego używa
-                przeglądaka do transportowania HTML-a. Poclass="paragraph" zbiera i
-                wyświetla pliki znajdujące się w stronach internetowych.
-              </p>
-              <p>
-                <span class="week-summary__description--special">URL</span> -
-                Uniform Resource Locator - adres, który wpisujemy. Ten adres składa
-                się z kilku części:
-              </p>
-    
-              <ul>
-                <li>
-                  <span class="week-summary__description--special">https://</span> -
-                  protokół
-                </li>
-                <li>
-                  <span class="week-summary__description--special"
-                    >cotenfrontend.pl
-                  </span>
-                  - host (adres serwera)
-                </li>
-                <li>
-                  <span class="week-summary__description--special">:443 </span> -
-                  port (ta część zazwyczaj jest dla użytkownika niewidoczna).
-                  Wskazuje przeglądarce, na którym porcie na serwerze znajdują się
-                  pliki strony
-                </li>
-                <li>
-                  <span class="week-summary__description--special"
-                    >bardzo ważny znak /- <b>root</b></span
-                  >
-                  - przy podawaniu ścieżki do zasobów (src). Jeśli podajemy źródło
-                  ze slashem na początku (src="/img.jpg"), przeglądarka szuka w
-                  katalogu głównym. Jeśli podajemy bez (src="img.jpg") - szuka w
-                  katalogu <b>aktualnym</b>, czyli np w katalogu podstrony. Dlatego
-                  lepiej podawać źródło (na serwerze) ze slashem na początku.
-                </li>
-                <li>
-                  <span class="week-summary__description--special">index.html</span>
-                  - ścieżka dostępu do zasobu
-                </li>
-                <li>
-                  <span class="week-summary__description--special"
-                    >?paramert=wartość</span
-                  >
-                  - parametry
-                </li>
-              </ul>
-    
-              <p>
-                <span class="week-summary__description--special">DNS</span> - Domain
-                Name System - system tłumaczący nazwę mnemoniczną (czyli "dla
-                ludzi") na odpowiadający jej adres IP.
-              </p>
-              <p>
-                <span class="week-summary__description--special">parsowanie</span> -
-                sprawdzanie składni
-              </p>
-              <h3 class="week-summary__subheading">
-                Kody odpowiedzi protokołu HTTP:
-              </h3>
-              <ul>
-                <li>
-                  <span class="week-summary__description--special">10x</span> -
-                  czekaj
-                </li>
-                <li>
-                  <span class="week-summary__description--special">200</span> -
-                  wszystko ok.
-                </li>
-                <li>
-                  <span class="week-summary__description--special">30x</span> -
-                  Przekierowania: szukasz w złym miejscu - przekieruję cię w dobre,
-                  bo wiem, gdzie.
-                </li>
-                <li>
-                  <span class="week-summary__description--special">404</span> - nie
-                  mam tego, czego potrzebujesz :(
-                </li>
-                <li>
-                  <span class="week-summary__description--special">50x</span> -
-                  błędy serwera
-                </li>
-              </ul>
-              <p>Kody możemy sprawdzić w Devtools (F12) w zakładce Network.</p>
-    
-              <h3 class="week-summary__subheading">JavaScript</h3>
-              <p>
-                JavaScript jest językiem programowania opartym na specyfikacji
-                ECMAScript 6+.
-              </p>
-              <p>JavaScript składa się z:</p>
-              <ul>
-                <li>wartości</li>
-                <li>operacji porównywania</li>
-                <li>literałów</li>
-                <li>zmiennych</li>
-                <li>obiektów</li>
-                <li>funkcji</li>
-              </ul>
-              <p>
-                JavaScript - znacznik script jest dodawany zawsze na dole strony -
-                po footerze, przed zamnięciem body <br />
-                alert + nawias otwarty + tekst w pojedynczych cudzysłowiach. (alert
-                wyświetlający się po uruchomieniu strony) <br />
-                console.log - tworzy ukryty w narzędziach developera tekst (nie
-                wyświetla się na stronie)
-              </p>
-            </article>
-    
-            <article class="week-summary">
-              <h3 id="week4" class="week-summary__heading">Tydzień IV:</h3>
-              <p>
-                <span class="week-summary__description--special">GitHUB</span> -
-                Pozwalający na śledzenie zmian w kodzie. Podstawowy flow to:
-              </p>
-              <ul>
-                <li>git add .</li>
-                <li>git commit -m "opis zmiany"</li>
-                <li>git push</li>
-              </ul>
-    
-              <h3 class="week-summary__subheading">
-                BEM - Block - Element - Modifier
-              </h3>
-              <p>
-                <span class="week-summary__description--special">Block</span> -
-                nadrzędny element <br />
-                <span class="week-summary__description--special">Element</span> -
-                część tego bloku, nie musi być bezpośrednim dzieckiem <br />
-                <span class="week-summary__description--special">Modifier</span> -
-                jeśli element występuje w kilku wariacjach, dodajemy dodatkową klasę
-              </p>
-              <p>
-                Sposób zapisu: block__element--modifier <br />
-                W CSS: dobrze jest ustawiać elementy alfabetycznie, np.
-                article__cover nad article__date, etc. <br />
-                Najlepiej jest używać pełnych nazw klas. <br />
-                Tworzymy dwie klasy jeśli element ma modyfikator (w modyfkatorze
-                zmieniamy tylko unikalne dla niego wartości, nie przepisujemy rzeczy
-                z klasy bazowej) <br />
-                Modyfikatory można wrzucać zarówno na poziomie bloku, jak i
-                elementu.
-              </p>
-    
-              <h3 class="week-summary__subheading">
-                Właściwości displayowe elementów
-              </h3>
-              <p>
-                <span class="week-summary__description--special"
-                  >display:inline</span
-                >
-                - elementy ustawiają się obok siebie
-              </p>
-    
-              <h3 class="week-summary__subheading week-summary__subheading--jss">
-                Testowe h3 - zadanie z JS'a
-              </h3>
-            </article>
-          </section>
+            - elementy ustawiają się obok siebie
+          </p>
+
+          <h3 class="week-summary__subheading week-summary__subheading--jss">
+            Testowe h3 - zadanie z JS'a
+          </h3>
+        </article>
+      </section>
     </main>
     <footer>
-        Strona domowa Bartłomieja Garguli która jest efektem szkolenia WTF: Co ten frontend. <a href="#top">Wróć na górę strony</a>
+      Strona domowa Bartłomieja Garguli która jest efektem szkolenia WTF: Co ten
+      frontend. <a href="#top">Wróć na górę strony</a>
     </footer>
-</body>
-
+  </body>
 </html>
