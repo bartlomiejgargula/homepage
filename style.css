@@ -160,6 +160,10 @@ a:active {
   box-sizing: border-box;
   position: relative;
 }
+
+.week__navi:hover {
+  background: rgb(255, 155, 6);
+}
 .week__navi--insert {
   position: absolute;
   top: 30px;
