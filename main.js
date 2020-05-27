@@ -4,9 +4,6 @@ const age = 28;
 function helloWorld (){
     console.log('witaj świecie');
 }
-const heading = document.querySelector('.header__title--js');
-
-heading.innerHTML = `Strona robocza kursu WTF Co ten frontend`
 
 
 function greet(age, name) {
