@@ -189,7 +189,7 @@ a:active {
   text-align: center;
 }
 
-@media screen and  (max-width: 320px) {
+@media screen and (max-width: 768px) {
 
   body {
     background: #3c71d4;
@@ -198,21 +198,28 @@ a:active {
   .navigation {
     display: flex;
     top: 0;
-    font-size: 14px;
-    justify-content: center;
+    font-size: 16px;
     background: rgba(246, 242, 250, 0.137);
     padding: 10px;
     
   }
+
   .navigation a {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
   }
-
+  
   .navigation a:hover {
     color: yellow;
     padding-bottom: 5px;
     border-bottom: 1px solid rgb(255, 255, 255);
   }
+  .about {
+    background: rgba(128, 122, 136, 0.473);
+    border-color: rgb(222, 215, 228);
+    padding: 0px 10px;
+    margin: 0px 10px 20px 10px;
+  }
+  
 }
