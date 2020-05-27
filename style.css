@@ -37,6 +37,12 @@ body {
   text-align: center;
 }
 
+.navigation__link:hover {
+  color: yellow;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
 .hamburger {
   display: none;
 }
@@ -229,6 +235,11 @@ a:active {
     color: white;
     text-decoration: none;
     padding: 5px 20px;
+  }
+  .navigation__link:hover {
+    color: yellow;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(255, 255, 255);
   }
   
   .about {
