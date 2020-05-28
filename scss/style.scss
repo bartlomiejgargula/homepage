@@ -1,0 +1,273 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background: linear-gradient(95deg, #2e22aa, #de499b);
+  }
+  
+  .main {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* main navigation */
+  
+  .navigation {
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    font-size: 25px;
+    justify-content: center;
+    background: rgba(246, 242, 250, 0.137);
+  }
+  
+  .navigation__link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    text-align: center;
+  }
+  
+  .navigation__link:hover {
+    color: yellow;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  
+  /* form */
+  
+  .form {
+    color: white;
+  }
+  
+  .form__item {
+    width: 30%;
+  }
+  
+  .form__label {
+    display: block;
+  }
+  
+  /* hyperlinks */
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: purple;
+  }
+  a:active {
+    color: rgb(243, 8, 8);
+  }
+  
+  /* header */
+  
+  .header__title {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .header__span {
+    color: #fdf900;
+    font-size: 35px;
+  }
+  
+  /* section */
+  
+  .about {
+    background: rgba(128, 122, 136, 0.473);
+    border-color: rgb(222, 215, 228);
+    border-style: double;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px 150px 20px 150px;
+  }
+  
+  /* flex */
+  
+  .about__description--flex {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row-reverse wrap-reverse;
+    overflow: auto;
+  }
+  
+  .about__column {
+    height: 205px;
+    padding: 5px;
+    padding-left: 30px;
+    background: rgba(128, 122, 136, 0.274);
+  }
+  
+  
+  /* h2 - about */
+  
+  .about__header {
+    color: rgb(250, 209, 233);
+  }
+  
+  /* article */
+  
+  .about__description {
+    color: #ffffff;
+  }
+  .about__description--heading {
+    color: rgb(255, 155, 6);
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .about__description--heading::before {
+  
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    background: rgb(255, 255, 255);
+  }
+  
+  /* week summary navi */
+  
+  .week__navi {
+    background: rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    padding: 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 4px;
+    margin-left: 4px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .week__navi:hover {
+    background: rgb(255, 155, 6);
+  }
+  .week__navi--insert {
+    position: absolute;
+    top: 30px;
+    left: 55px;
+  }
+  
+  /* week-summary */
+  
+  .week-summary {
+    color: #ffffff;
+  }
+  
+  .week-summary__description--special {
+    color: orange;
+    font-size: 18px;
+  }
+  
+  .week-summary__heading {
+    color: rgb(255, 155, 6);
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .week-summary-grid {
+    display: grid;
+    grid-template-areas: "article article";
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+  
+  .week-summary__subheading {
+    color: rgb(255, 212, 22);
+    font-size: 20px;
+  }
+  
+  /* footer */
+  
+  #footer {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    body {
+      background: #3c71d4;
+    }
+  
+    .header {
+      min-height: 60px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+  
+    .hamburger {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      display: inline;
+    }
+  
+    .main {
+      max-width: 1500px;
+      margin: 100px auto 0;
+    }
+  
+    .navigation {
+      display: none;
+      top: 0;
+      font-size: 16px;
+      background: rgba(246, 242, 250, 0.137);
+      padding: 0px;
+    }
+  
+    .navigation--open {
+      display: block;
+    }
+  
+    .navigation__link {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 5px 20px;
+    }
+    .navigation__link:hover {
+      color: yellow;
+      padding-bottom: 5px;
+      border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    
+    .about {
+      background: rgba(128, 122, 136, 0.473);
+      border-color: rgb(222, 215, 228);
+      padding: 0px 10px;
+      margin: 0px 10px 20px 10px;
+    }
+  
+  }
